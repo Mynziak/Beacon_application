@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Integration and unit tests for Beacon application" verbose="1">
+
+    <test name="Beacon Tests">
+        <classes>
+            <class name="tests.BaconTests"/>
+        </classes>
+    </test>
+</suite>
